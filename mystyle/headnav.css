@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  cursor: pointer;
+}
+li:hover {
+  color: rgb(206, 81, 14);
+  transition: all 0.5s;
+}
+.list-ng-Head {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background-color: rgb(130, 91, 8);
+  padding: 15px;
+  justify-content: end;
+}
+button {
+  padding: 10px;
+  width: 85px;
+  border: none;
+  font-size: 13px;
+  background-color: rgb(206, 81, 14);
+  color: rgb(222, 204, 213);
+  cursor: pointer;
+}
+button:hover {
+  transition: ease-in-out 0.3s;
+  background-color: rgb(172, 67, 11);
+  border-radius: 5px;
+}
+.signin-signup {
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+  margin-left: 50px;
+}
