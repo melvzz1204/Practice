@@ -1,6 +1,6 @@
 const btnsignin = document.getElementById("btn-signin");
 const form = document.getElementById("form-signin");
-const close = document.getElementById("img-close");
+const closeBtn = document.getElementById("img-close");
 
 btnsignin.addEventListener("click", () => {
   if (form.style.display === "none") {
@@ -10,7 +10,7 @@ btnsignin.addEventListener("click", () => {
   }
 });
 
-close.addEventListener("click", () => {
+closeBtn.addEventListener("click", () => {
   if (form.style.display === "flex") {
     form.style.display = "none";
   } else {
