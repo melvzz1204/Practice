@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="mystyle/headnav.css" />
-    <link rel="stylesheet" href="mystyle/content.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Myfirstwebsite</title>
+    <link rel="stylesheet" href="mystyle/content.css" />
+    <link rel="stylesheet" href="mystyle/form.css" />
   </head>
   <body>
     <!--headnav start-->
@@ -13,33 +14,56 @@
       <ul class="list-ng-Head">
         <li>About</li>
         <li>Features</li>
-        <li>Features</li>
         <li>Download</li>
         <li>Support</li>
         <li>Partners</li>
         <div class="signin-signup">
-          <li>Sign in</li>
+          <li id="btn-signin">Sign in</li>
           <li><button>Sign up</button></li>
         </div>
       </ul>
+      <!--  form login start -->
+      <div class="form-signin" id="form-signin">
+        <div>
+          <img src="img//close.svg" alt="" class="img-close" id="img-close" />
+        </div>
+        <div class="inpt-container">
+          <div class="label-container">
+            <label for="name">Your name</label>
+            <input type="text" placeholder="Enter your name" />
+          </div>
+          <div class="label-container">
+            <label for="name">Your Password</label>
+            <input type="text" placeholder="Enter your password" />
+          </div>
+        </div>
+        <div class="btn-login-container">
+          <button class="btn-login">Log in</button>
+        </div>
+      </div>
+      <!--  form login  end-->
     </div>
     <!--headnav end-->
-
     <section class="sec-main-content">
-      <div>
-        <h1>Monitor Balance</h1>
-        <h1>Control Life</h1>
-        <p>
+      <div class="content-container">
+        <h1>
+          Monitor Balance, <br />
+          Control Life
+        </h1>
+        <p class="subtitle-content">
           When the life too much things you need more than you have<br />
           Let's Peyme help your life to easier with smart payment
         </p>
-        <img src="img/Play Button.png" alt="" />
-        <img src="img/guhit.png" alt="" />
-        <img src="img/getstarted.png" alt="" />
+        <div class="get-started">
+          <img src="img/Play Button.png" alt="" />
+          <img src="img/guhit.png" alt="" />
+          <button class="GetStarted">Get Started</button>
+        </div>
       </div>
-      <div>
+      <div class="img-banner">
         <img src="img/Banner.png" alt="" />
       </div>
     </section>
+    <script src="js/index.js"></script>
   </body>
 </html>

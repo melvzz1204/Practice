@@ -1,0 +1,74 @@
+/* log in form */
+.form-signin {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 30%;
+  height: 60%;
+  padding: 60px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  display: none;
+  animation-name: form-signin;
+  animation-duration: 0.2s;
+}
+@keyframes form-signin {
+  from {
+    opacity: 0;
+    top: 20%;
+  }
+  to {
+    opacity: 1;
+    top: 50%;
+  }
+}
+input {
+  padding: 10px;
+  border: 1px solid rgb(203, 75, 6, 0.4);
+  border-radius: 5px;
+  outline: none;
+  width: 95%;
+}
+.inpt-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+label {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.label-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.btn-login {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.btn-login-container {
+  width: 100%;
+}
+.img-close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.img-close:hover {
+  transition: all 0.5s;
+  transform: rotate(90deg);
+}
