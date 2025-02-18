@@ -9,10 +9,15 @@
   background-color: white;
   color: rgb(6, 6, 6);
   padding: 10px;
-  border: 2px brown solid;
+  border: 1px brown solid;
   width: 150px;
   cursor: pointer;
   font-size: 13px;
+}
+.GetStarted:hover {
+  background-color: rgb(206, 81, 14);
+  color: white;
+  transition: ease-in-out 0.3s;
 }
 .content-container {
   display: flex;
